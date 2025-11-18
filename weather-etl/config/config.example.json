@@ -1,0 +1,10 @@
+{
+  "api_key": "25a5e036b894a16dc63cab8bea999db1",
+  "cities": ["Bratislava", "Praha", "London", "Berlin", "Viedeň"],
+  "db": {
+    "host": "localhost",
+    "database": "weatherdb",
+    "user": "postgres",
+    "password": "macbookpro"
+  }
+}
