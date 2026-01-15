@@ -1,24 +1,3 @@
-# import json
-# from extract import get_weather
-# from transform import transform
-# from load import load_to_db
-#
-# def main():
-#     with open("../config/config.example.json") as f:
-#         cfg = json.load(f)
-#
-#     for city in cfg["cities"]:
-#         weather_raw = get_weather(cfg["api_key"], city)
-#         weather_clean = transform(weather_raw)
-#         load_to_db(weather_clean, cfg["db"])
-#         print(f"Inserted weather for {city}")
-#
-#     print("ETL pipeline completed successfully for all cities.")
-#
-# if __name__ == "__main__":
-#     main()
-#
-
 import json
 import time
 
